@@ -1,2 +1,2 @@
-# templande node + typescript
-aplicação templante para projetos em node
+# template node + typescript
+aplicação template para projetos em node
