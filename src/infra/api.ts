@@ -5,7 +5,7 @@ export const ApiLocal = axios.create({
   baseURL: 'https://apiteste.nwsys.com.br',
 })
 
-Api.interceptors.request.use(async (config) => {
+ApiLocal.interceptors.request.use(async (config) => {
   config.headers['Client-Token'] = Credentials.API_KEY
   return config
 })
